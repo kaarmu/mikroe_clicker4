@@ -1,0 +1,27 @@
+{
+    "build": {
+        "core": "stm32",
+        "cpu": "cortex-m7",
+        "extra_flags": "-DSTM32F767xx",
+        "f_cpu": "216000000L",
+        "mcu": "stm32f767bit6",
+        "product_line": "STM32F767xx",
+        "hwids": [
+            ["2dbc", "0001"]
+        ]
+    },
+    "platforms": ["ststm32"],
+    "frameworks": [
+        "stm32cube",
+        "arduino",
+        "cmsis"
+    ],
+    "name": "MikroElektronika Clicker 4",
+    "upload": {
+        "maximum_ram_size": 524288,
+        "maximum_size": 2097152,
+        "protocol": "stlink"
+    },
+    "url": "https://www.mikroe.com/clicker-4-for-stm32",
+    "vendor": "MikroElektronika"
+}
